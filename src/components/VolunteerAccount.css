@@ -1,0 +1,129 @@
+/* VolunteerPage.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .volunteer-account {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .user-info {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-info h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .user-info p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .button-group {
+    margin-top: 15px;
+  }
+  
+  .logout-button,
+  .delete-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ff5e5e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .logout-button {
+    background-color: #4CAF50;
+  }
+  
+  .certificates {
+    margin-top: 20px;
+  }
+  
+  .certificate-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .main-content {
+    width: 75%;
+    padding: 20px;
+  }
+  
+  .jobs-section {
+    margin-bottom: 30px;
+  }
+  
+  .jobs-section h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .job-card {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .job-card h5 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .job-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .append-hours-button,
+  .apply-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .append-hours-button:hover,
+  .apply-button:hover {
+    background-color: #45a049;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+  }
+  
